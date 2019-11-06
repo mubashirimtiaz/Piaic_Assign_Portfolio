@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+@media (min-width: 300px) 
+{
+	.nav-logo
+	{
+		height: 30px;
+	}
+}
+@media (min-width: 376px) 
+{
+	.nav-logo
+	{
+		height: 40px;
+	}
+}
+@media (min-width: 576px) 
+{
+	.nav-logo
+	{
+		height: 40px
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) 
+{ 
+	.nav-logo
+	{
+		height: 50px
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) 
+{
+	.nav-logo
+	{
+		height: 50px
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) 
+{
+	.nav-logo
+	{
+        height: 50px;
+	}
+}
+.hvr-underline-from-center{
+    margin: 0px 8px 0px 0px;
+    font-weight: 500;
+}
+.hvr-underline-from-center:active{
+    font-weight: bold;
+}
+.hvr-underline-from-center:focus{
+    font-weight: bold;
+}
+.cnt_btn{
+    border-bottom: 2px yellowgreen solid;
+}
+.slider{
+    position: relative;
+}
+.slider_btn{
+    position: absolute;
+    top: 70%;
+    left: 44.5%;
+    z-index: 1;
+    border-bottom: 2px solid #DD8621;
+}
+.new-cont{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+h1{
+    font-weight: bold;
+}
+.heading1{
+    color: #678E1A;
+}
+.card_content{
+    color: #aaaaaa;
+    margin-bottom: 5%;
+    font-weight: 400;
+}
+.card_content-move{
+    margin-top: -53%;
+}
+h5{
+    font-weight: bold;
+}
+.read_more{
+    text-transform: lowercase;
+    color: #90C746;
+    text-decoration: underline;
+}
+.read_more:hover{
+    color: rgb(128, 177, 85);
+    text-decoration: underline;
+ 
+}
+.read_more:active{
+    color:rgb(121, 170, 56);
+    text-decoration: underline;
+}
+.fa-chevron-right{
+    font-size: 11px;
+}
+.src-card{
+    text-align: center;
+}
+.img_wrtt{
+    margin-bottom:1px ;
+}
+.req_project{
+    background-color: #8EC63F;
+}
+.req-project-cont{
+    font-size: 60px;
+}
+.send_req-btn{
+    border-bottom: 2px solid #DD8621;
+}
+.page-footer{
+    background-color: #678E19;
+}
+.about_cont{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-content{
+    color: #413e3e;
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+.review_cont{
+    background-color:#F2F2F2 ;
+}
+.port_service{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.port_service:hover{
+ color:rgb(243, 172, 114)
+}
+.port_service:focus{
+    color:#FF821C
+}
