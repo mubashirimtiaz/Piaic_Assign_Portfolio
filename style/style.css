@@ -153,3 +153,16 @@ h5{
 .port_service:focus{
     color:#FF821C
 }
+.hvr-forward{
+    font-weight: 400;
+    color: #dddddd;
+}
+.hvr-forward:hover{
+    color: #FEBD11;
+}
+.hvr-forward:active{
+    color: #FEBD44;
+}
+.hvr-forward:focus{
+    color: #FEBD44;
+}
