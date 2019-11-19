@@ -49,6 +49,58 @@ html{
         height: 50px;
 	}
 }
+
+/* slider Image */
+@media (min-width: 300px) 
+{
+	.sliderImage
+	{
+		height: 90vh;
+	}
+}
+@media (min-width: 376px) 
+{
+	.sliderImage
+	{
+		height: 90vh;
+	}
+}
+@media (min-width: 576px) 
+{
+	.sliderImage
+	{
+		height: 90vh
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) 
+{ 
+	.sliderImage
+	{
+		height: 90vh
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) 
+{
+	.sliderImage
+	{
+		height: 90vh
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) 
+{
+	.sliderImage
+	{
+        height: 100vh;
+	}
+}
+
+
 .hvr-underline-from-center{
     margin: 0px 8px 0px 0px;
     font-weight: 500;
